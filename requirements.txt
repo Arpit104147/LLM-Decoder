@@ -1,0 +1,5 @@
+gguf>=0.19
+numpy
+flask
+xlsxwriter
+openpyxl

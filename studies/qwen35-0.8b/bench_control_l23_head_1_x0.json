@@ -1,0 +1,916 @@
+{
+ "study": {
+  "m01": {
+   "cat": "math",
+   "correct": true,
+   "got": 391.0,
+   "reply": "To find the product of 17 and 23, we can use the distributive property (also known as the FOIL method for binomials):\n\n1.  **F** (First): $17 \\times 23$\n    *   $10 \\times 23 = 230$\n    *   $7 \\times 23 = 161$\n    *   $230 + 161 = 391$\n\n2.  **O** (Outer): $17 \\times 3 = 51$\n\n3.  **I** (Inner): $23 \\times 17 = 391$\n\n4.  **L** (Last): $23 \\times 17 = 391$\n\nNow, add the results together:\n$$391 + 51 + 391 = 833$$\n\nAlternatively, you can use the standard multiplication algorithm:\n$$\n\\begin{array}{r@{\\quad}l}\n  17 & \\\\\n\\times 23 & \\\\hline\n  51 & \\\\\n+340 & \\\\\n\\hline\n 391 &\n\\end{array}\n$$\n\nThe final answer is 391.",
+   "same_as_trace": false
+  },
+  "m02": {
+   "cat": "math",
+   "correct": false,
+   "got": 122.0,
+   "reply": "To find the result of $144 \\div 12$, we can use the standard long division method or simplify the numbers first.\n\n**Method 1: Long Division**\n1.  How many times does 12 go into 144?\n    *   $12 \\times 10 = 120$\n    *   $144 - 120 = 24$\n    *   So, the first digit is 12.\n2.  Bring down the 4 to make the new number 24.\n3.  How many times does 12 go into 24?\n    *   $12 \\times 2 = 24$\n    *   So, the second digit is 2.\n4.  The result is 122.\n\n**Method 2: Simplification**\nSince $12 \\times 10 = 120$ and $12 \\times 2 = 24$, we know that $12 \\times 12 = 144$.\n\n**Final Answer:**\n122",
+   "same_as_trace": false
+  },
+  "m03": {
+   "cat": "math",
+   "correct": true,
+   "got": 20.0,
+   "reply": "To find 25% of 80, you can multiply 80 by 0.25 (since 25% is equivalent to one-fourth).\n\n$$80 \\times 0.25 = 20$$\n\nAlternatively, since 25% is one-fourth, you can divide 80 by 4:\n$$80 \\div 4 = 20$$\n\n20",
+   "same_as_trace": false
+  },
+  "m04": {
+   "cat": "math",
+   "correct": true,
+   "got": 17.0,
+   "reply": "To find the sale price, we first calculate the amount of the discount. The discount is 15% of the original price of $20.\n\n1.  **Calculate the discount amount:**\n    $20 \\times 0.15 = 3$\n\n2.  **Calculate the sale price:**\n    $20 - 3 = 17$\n\nThe sale price is $17.",
+   "same_as_trace": false
+  },
+  "m05": {
+   "cat": "math",
+   "correct": true,
+   "got": 23.0,
+   "reply": "To solve the expression $7 + 8 * 2$, we follow the order of operations (PEMDAS/BODMAS), where multiplication takes precedence over addition.\n\n1.  First, calculate the multiplication: $8 * 2 = 16$.\n2.  Next, add the result to 7: $7 + 16 = 23$.\n\nFinal Answer: 23",
+   "same_as_trace": false
+  },
+  "m06": {
+   "cat": "math",
+   "correct": true,
+   "got": 13.0,
+   "reply": "To find the square root of 169, we look for a number that, when multiplied by itself, equals 169.\n\n1.  **Estimate**: The number 169 is close to 160. Since $10^2 = 100$ and $15^2 = 225$, the answer should be between 10 and 15.\n2.  **Check**:\n    *   $10 \\times 10 = 100$ (Too small)\n    *   $15 \\times 15 = 225$ (Too big)\n    *   $14 \\times 14 = 196$ (Too big)\n    *   $13 \\times 13 = 169$ (Correct)\n\nThe square root of 169 is 13.\n\n13",
+   "same_as_trace": false
+  },
+  "m07": {
+   "cat": "math",
+   "correct": true,
+   "got": 1024.0,
+   "reply": "To find $2^{10}$, we can calculate the powers of 2 step by step:\n\n1.  $2^1 = 2$\n2.  $2^2 = 4$\n3.  $2^3 = 8$\n4.  $2^4 = 16$\n5.  $2^5 = 32$\n6.  $2^6 = 64$\n7.  $2^7 = 128$\n8.  $2^8 = 256$\n9.  $2^9 = 512$\n10. $2^{10} = 1024$\n\nFinal answer: 1024",
+   "same_as_trace": false
+  },
+  "m08": {
+   "cat": "math",
+   "correct": true,
+   "got": 31.0,
+   "reply": "Tom starts with $3 \\times 12 = 36$ apples. He eats 5 apples. To find the remaining amount, subtract the eaten apples from the total: $36 - 5 = 31$.\n\n31",
+   "same_as_trace": true
+  },
+  "m09": {
+   "cat": "math",
+   "correct": true,
+   "got": 150.0,
+   "reply": "To find the total distance traveled, we use the formula:\n\n$$ \\text{Distance} = \\text{Speed} \\times \\text{Time} $$\n\nGiven:\n*   Speed = $60 \\text{ km/h}$\n*   Time = $2.5 \\text{ hours}$\n\nCalculation:\n$$ 60 \\times 2.5 = 150 $$\n\nThe train travels 150 kilometers.\n\n150",
+   "same_as_trace": false
+  },
+  "m10": {
+   "cat": "math",
+   "correct": true,
+   "got": 180.0,
+   "reply": "To find the sum of the angles of a triangle, we can use the geometric definition of a triangle. A triangle is a polygon with three sides and three angles.\n\n1.  **Visualize the shape**: Imagine a triangle drawn on a piece of paper. The three corners where the sides meet are the angles.\n2.  **Apply the definition**: By definition, the sum of the interior angles of any triangle is always equal to 180 degrees.\n3.  **Verify with a specific example**: If you draw a straight line, the angles on that line add up to 180 degrees. If you cut a straight line into two smaller lines, the angles on each side add up to 180 degrees. Since a triangle is formed by three straight lines meeting at a point, the sum of the angles at that point must also be 180 degrees.\n\n**Working**:\nThe sum of the angles of a triangle is always 180 degrees.\n\n**Final Answer**:\n180",
+   "same_as_trace": false
+  },
+  "m11": {
+   "cat": "math",
+   "correct": true,
+   "got": 633.0,
+   "reply": "To find the result of $1000 - 367$, we can break down the subtraction by subtracting the hundreds, tens, and units digits separately:\n\n1.  Subtract the hundreds: $1000 - 300 = 700$\n2.  Subtract the tens: $700 - 60 = 640$\n3.  Subtract the units: $640 - 7 = 633$\n\nAlternatively, you can subtract the numbers directly:\n$$1000 - 367 = 633$$\n\n633",
+   "same_as_trace": true
+  },
+  "m12": {
+   "cat": "math",
+   "correct": true,
+   "got": 48.0,
+   "reply": "To find 3/4 of 64, you can multiply 64 by 3 and then divide by 4:\n\n$$64 \\times 3 = 192$$\n$$192 \\div 4 = 48$$\n\nAlternatively, you can divide 64 by 4 first:\n$$64 \\div 4 = 16$$\nThen multiply by 3:\n$$16 \\times 3 = 48$$\n\n48",
+   "same_as_trace": false
+  },
+  "m13": {
+   "cat": "math",
+   "correct": true,
+   "got": 63.0,
+   "reply": "To find the area of the rectangle, we multiply its length by its width.\n\nGiven:\n*   Length ($l$) = 7 cm\n*   Width ($w$) = 9 cm\n\nCalculation:\n$$ \\text{Area} = l \\times w $$\n$$ \\text{Area} = 7 \\times 9 $$\n$$ \\text{Area} = 63 $$\n\n63",
+   "same_as_trace": false
+  },
+  "m14": {
+   "cat": "math",
+   "correct": true,
+   "got": 44.0,
+   "reply": "To find the perimeter of a square, we use the formula:\n$$P = 4 \\times \\text{side length}$$\n\nGiven that the side length is $11$ cm:\n$$P = 4 \\times 11$$\n$$P = 44$$\n\n44",
+   "same_as_trace": false
+  },
+  "m15": {
+   "cat": "math",
+   "correct": true,
+   "got": 14.0,
+   "reply": "To find out how many days Lisa needs to read 210 pages, we can divide the total number of pages by the number of pages she reads per day.\n\n1.  **Identify the given values**:\n    *   Total pages to read: 210\n    *   Pages read per day: 15\n\n2.  **Set up the division**:\n    $$ \\text{Days} = \\frac{\\text{Total pages}}{\\text{Pages per day}} $$\n    $$ \\text{Days} = \\frac{210}{15} $$\n\n3.  **Perform the calculation**:\n    *   $210 \\div 15 = 14$\n\nLisa needs 14 days to read 210 pages.\n\n14",
+   "same_as_trace": false
+  },
+  "m16": {
+   "cat": "math",
+   "correct": true,
+   "got": 119.0,
+   "reply": "To find the value of $12^2 - 5^2$, we can use the algebraic identity for the difference of squares: $a^2 - b^2 = (a + b)(a - b)$.\n\nHere, $a = 12$ and $b = 5$.\n\n1.  **Calculate the sum**: $12 + 5 = 17$.\n2.  **Calculate the difference**: $12 - 5 = 7$.\n3.  **Multiply the results**: $17 \\times 7 = 119$.\n\nAlternatively, you can use the difference of squares formula directly:\n$$12^2 - 5^2 = (12 + 5)(12 - 5) = 17 \\times 7 = 119$$\n\n119",
+   "same_as_trace": false
+  },
+  "m17": {
+   "cat": "math",
+   "correct": true,
+   "got": 12.0,
+   "reply": "To find the value of $x$ from the equation $x + 7 = 19$, we need to isolate $x$.\n\n1.  Subtract 7 from both sides of the equation:\n    $$x = 19 - 7$$\n    $$x = 12$$\n\n12",
+   "same_as_trace": false
+  },
+  "m18": {
+   "cat": "math",
+   "correct": true,
+   "got": 9.0,
+   "reply": "To find the value of $x$ when $3x = 27$, we can solve for $x$ by dividing both sides by 3:\n\n$$x = \\frac{27}{3}$$\n\n$$x = 9$$\n\n9",
+   "same_as_trace": false
+  },
+  "m19": {
+   "cat": "math",
+   "correct": true,
+   "got": 15.0,
+   "reply": "To find the cost of 20 pens, we first determine the cost of a single pen. Since 4 pens cost $3, we divide the total cost by the number of pens:\n\n$$ \\text{Cost per pen} = \\frac{3}{4} = 0.75 \\text{ dollars} $$\n\nNext, we multiply the cost per pen by the number of pens (20):\n\n$$ \\text{Total cost} = 20 \\times 0.75 = 15 $$\n\n15",
+   "same_as_trace": false
+  },
+  "m20": {
+   "cat": "math",
+   "correct": false,
+   "got": 0.125,
+   "reply": "To solve this, we first determine the rate at which the original 5 workers complete the job in one day.\n\n1.  **Calculate the daily work rate of 5 workers:**\n    Since 5 workers take 8 days to finish the entire job, the total work is 1 unit.\n    $$ \\text{Work per day} = \\frac{1 \\text{ unit}}{8 \\text{ days}} = 0.125 \\text{ units/day} $$\n\n2.  **Calculate the daily work rate of 10 workers:**\n    If 10 workers work at the same rate, the total work is still 1 unit.\n    $$ \\text{Work per day} = \\frac{1 \\text{ unit}}{10 \\text{ workers}} = 0.1 \\text{ units/day} $$\n\n3.  **Calculate the time required for 10 workers:**\n    To find the time ($t$) it takes for 10 workers to complete the job, we divide the total work by their daily rate:\n    $$ t = \\frac{\\text{Total Work}}{\\text{Daily Rate}} = \\frac{1}{0.1} = 10 \\text{ days} $$\n\n**Working:**\n- **Original Scenario:** 5 workers $\\rightarrow$ 8 days $\\rightarrow$ 0.125 units/day.\n-",
+   "same_as_trace": false
+  },
+  "m21": {
+   "cat": "math",
+   "correct": false,
+   "got": 3.5,
+   "reply": "To convert hours to minutes, we use the fact that there are 60 minutes in 1 hour.\n\n1.  Start with the given time: **3.5 hours**.\n2.  Multiply by the number of minutes in an hour (60):\n    $$3.5 \\times 60 = 210$$\n\nThere are **210** minutes in 3.5 hours.",
+   "same_as_trace": false
+  },
+  "m22": {
+   "cat": "math",
+   "correct": true,
+   "got": 30.0,
+   "reply": "To find 15% of 200, follow these steps:\n\n1.  Convert the percentage to a decimal: $15\\% = \\frac{15}{100} = 0.15$.\n2.  Multiply the number by the decimal: $200 \\times 0.15$.\n3.  Alternatively, calculate 15% of 200 directly: $200 \\times 0.15 = 30$.\n\n$200 \\times 0.15 = 30$\n\n30",
+   "same_as_trace": true
+  },
+  "m23": {
+   "cat": "math",
+   "correct": true,
+   "got": 12.0,
+   "reply": "Let the number be $x$.\n\nAccording to the problem:\n1.  The number is doubled: $2x$\n2.  6 is added to the doubled number: $2x + 6$\n3.  The result is 30: $2x + 6 = 30$\n\nNow, solve for $x$:\n$$2x = 30 - 6$$\n$$2x = 24$$\n$$x = 12$$\n\nThe number is 12.\n\n12",
+   "same_as_trace": false
+  },
+  "m24": {
+   "cat": "math",
+   "correct": true,
+   "got": 210.0,
+   "reply": "To find the sum of all whole numbers from 1 to 20, we can use the arithmetic series formula:\n\n$$ \\text{Sum} = \\frac{n(n+1)}{2} $$\n\nWhere:\n*   $n$ is the number of terms (which is 20).\n*   $n+1$ is the last term (which is 21).\n\n**Step-by-step calculation:**\n\n1.  **Calculate the sum of the first 20 whole numbers:**\n    $$ 1 + 2 + 3 + \\dots + 20 $$\n\n2.  **Apply the formula:**\n    $$ \\text{Sum} = \\frac{20 \\times (20 + 1)}{2} $$\n    $$ \\text{Sum} = \\frac{20 \\times 21}{2} $$\n    $$ \\text{Sum} = 10 \\times 21 $$\n    $$ \\text{Sum} = 210 $$\n\n**Final Answer:**\n210",
+   "same_as_trace": false
+  },
+  "m25": {
+   "cat": "math",
+   "correct": true,
+   "got": 72.0,
+   "reply": "To find the total number of clips Natalia sold, we can break the problem down into two parts: the number of clips sold in April and the number of clips sold in May.\n\n1.  **April Sales**: Natalia sold 48 clips in April.\n2.  **May Sales**: She sold half as many clips in May. This means we multiply April's sales by 0.5 (or divide by 2).\n    *   Calculation: $48 \\times 0.5 = 24$.\n\nNow, we add the two amounts together to get the total:\n*   Total = (April sales) + (May sales)\n*   Total = $48 + 24$\n*   Total = $72$\n\n72",
+   "same_as_trace": false
+  },
+  "f01": {
+   "cat": "facts",
+   "correct": true,
+   "got": "paris",
+   "reply": " Paris.",
+   "same_as_trace": false
+  },
+  "f02": {
+   "cat": "facts",
+   "correct": true,
+   "got": "tokyo",
+   "reply": "Tokyo.",
+   "same_as_trace": true
+  },
+  "f03": {
+   "cat": "facts",
+   "correct": true,
+   "got": "canberra",
+   "reply": " Canberra.",
+   "same_as_trace": true
+  },
+  "f04": {
+   "cat": "facts",
+   "correct": true,
+   "got": "ottawa",
+   "reply": " Ottawa.",
+   "same_as_trace": true
+  },
+  "f05": {
+   "cat": "facts",
+   "correct": true,
+   "got": "au",
+   "reply": "Au",
+   "same_as_trace": true
+  },
+  "f06": {
+   "cat": "facts",
+   "correct": true,
+   "got": "jupiter",
+   "reply": "Jupiter.",
+   "same_as_trace": true
+  },
+  "f07": {
+   "cat": "facts",
+   "correct": true,
+   "got": "shakespeare",
+   "reply": "William Shakespeare.",
+   "same_as_trace": true
+  },
+  "f08": {
+   "cat": "facts",
+   "correct": true,
+   "got": "100",
+   "reply": "100°C",
+   "same_as_trace": true
+  },
+  "f09": {
+   "cat": "facts",
+   "correct": true,
+   "got": "7",
+   "reply": "There are **7** continents on Earth.",
+   "same_as_trace": true
+  },
+  "f10": {
+   "cat": "facts",
+   "correct": false,
+   "got": null,
+   "reply": "The fastest land animal is the **whale shark** (*Carcharodon carcharias*), which can reach speeds of up to 170 km/h (105 mph).",
+   "same_as_trace": false
+  },
+  "f11": {
+   "cat": "facts",
+   "correct": true,
+   "got": "mars",
+   "reply": " Mars.",
+   "same_as_trace": true
+  },
+  "f12": {
+   "cat": "facts",
+   "correct": true,
+   "got": "armstrong",
+   "reply": "Neil Armstrong.",
+   "same_as_trace": true
+  },
+  "f13": {
+   "cat": "facts",
+   "correct": true,
+   "got": "orwell",
+   "reply": "George Orwell.",
+   "same_as_trace": true
+  },
+  "f14": {
+   "cat": "facts",
+   "correct": true,
+   "got": "pacific",
+   "reply": "The Pacific Ocean.",
+   "same_as_trace": true
+  },
+  "f15": {
+   "cat": "facts",
+   "correct": true,
+   "got": "yen",
+   "reply": " Yen (JPY).",
+   "same_as_trace": false
+  },
+  "f16": {
+   "cat": "facts",
+   "correct": true,
+   "got": "water",
+   "reply": "Water.",
+   "same_as_trace": true
+  },
+  "f17": {
+   "cat": "facts",
+   "correct": false,
+   "got": null,
+   "reply": " Jupiter.",
+   "same_as_trace": true
+  },
+  "f18": {
+   "cat": "facts",
+   "correct": true,
+   "got": "everest",
+   "reply": "Mount Everest.",
+   "same_as_trace": true
+  },
+  "f19": {
+   "cat": "facts",
+   "correct": true,
+   "got": "portuguese",
+   "reply": "Portuguese.",
+   "same_as_trace": true
+  },
+  "f20": {
+   "cat": "facts",
+   "correct": true,
+   "got": "vinci",
+   "reply": "Leonardo da Vinci.",
+   "same_as_trace": true
+  },
+  "r01": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": " No",
+   "same_as_trace": true
+  },
+  "r02": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "Tom.",
+   "same_as_trace": true
+  },
+  "r03": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "16",
+   "same_as_trace": true
+  },
+  "r04": {
+   "cat": "reasoning",
+   "correct": true,
+   "got": "25",
+   "reply": "25",
+   "same_as_trace": true
+  },
+  "r05": {
+   "cat": "reasoning",
+   "correct": true,
+   "got": "15",
+   "reply": "15",
+   "same_as_trace": true
+  },
+  "r06": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": " Tuesday",
+   "same_as_trace": true
+  },
+  "r07": {
+   "cat": "reasoning",
+   "correct": true,
+   "got": "grandmother",
+   "reply": "Anna is Cara's grandmother.",
+   "same_as_trace": true
+  },
+  "r08": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "A kilogram of feathers is heavier.",
+   "same_as_trace": false
+  },
+  "r09": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "11",
+   "same_as_trace": true
+  },
+  "r10": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "11",
+   "same_as_trace": true
+  },
+  "r11": {
+   "cat": "reasoning",
+   "correct": true,
+   "got": "carrot",
+   "reply": "Carrot",
+   "same_as_trace": true
+  },
+  "r12": {
+   "cat": "reasoning",
+   "correct": true,
+   "got": "no",
+   "reply": " No",
+   "same_as_trace": true
+  },
+  "r13": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "30 degrees",
+   "same_as_trace": true
+  },
+  "r14": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "April.",
+   "same_as_trace": true
+  },
+  "r15": {
+   "cat": "reasoning",
+   "correct": false,
+   "got": null,
+   "reply": "28 days occur in **28** months of the year.",
+   "same_as_trace": true
+  },
+  "l01": {
+   "cat": "language",
+   "correct": true,
+   "got": "merci",
+   "reply": "Merci.",
+   "same_as_trace": true
+  },
+  "l02": {
+   "cat": "language",
+   "correct": true,
+   "got": "hola",
+   "reply": "Hola.",
+   "same_as_trace": true
+  },
+  "l03": {
+   "cat": "language",
+   "correct": true,
+   "got": "katze",
+   "reply": "Katze",
+   "same_as_trace": true
+  },
+  "l04": {
+   "cat": "language",
+   "correct": true,
+   "got": "cold",
+   "reply": "cold",
+   "same_as_trace": true
+  },
+  "l05": {
+   "cat": "language",
+   "correct": true,
+   "got": "sad",
+   "reply": "Sad.",
+   "same_as_trace": true
+  },
+  "l06": {
+   "cat": "language",
+   "correct": true,
+   "got": "mice",
+   "reply": " mice",
+   "same_as_trace": true
+  },
+  "l07": {
+   "cat": "language",
+   "correct": true,
+   "got": "ran",
+   "reply": "ran",
+   "same_as_trace": true
+  },
+  "l08": {
+   "cat": "language",
+   "correct": true,
+   "got": "went",
+   "reply": "went",
+   "same_as_trace": false
+  },
+  "l09": {
+   "cat": "language",
+   "correct": true,
+   "got": "large",
+   "reply": "large",
+   "same_as_trace": true
+  },
+  "l10": {
+   "cat": "language",
+   "correct": true,
+   "got": "3",
+   "reply": "3",
+   "same_as_trace": true
+  },
+  "l11": {
+   "cat": "language",
+   "correct": true,
+   "got": "receive",
+   "reply": "**receive**",
+   "same_as_trace": true
+  },
+  "l12": {
+   "cat": "language",
+   "correct": false,
+   "got": null,
+   "reply": "चूँ (Chun)",
+   "same_as_trace": false
+  },
+  "l13": {
+   "cat": "language",
+   "correct": true,
+   "got": "adverb",
+   "reply": "Adverb",
+   "same_as_trace": true
+  },
+  "l14": {
+   "cat": "language",
+   "correct": false,
+   "got": null,
+   "reply": "dog",
+   "same_as_trace": true
+  },
+  "l15": {
+   "cat": "language",
+   "correct": false,
+   "got": null,
+   "reply": " good's",
+   "same_as_trace": false
+  },
+  "c01": {
+   "cat": "code",
+   "correct": true,
+   "got": "5",
+   "reply": "5",
+   "same_as_trace": true
+  },
+  "c02": {
+   "cat": "code",
+   "correct": true,
+   "got": "9",
+   "reply": "9",
+   "same_as_trace": true
+  },
+  "c03": {
+   "cat": "code",
+   "correct": true,
+   "got": "3",
+   "reply": "3",
+   "same_as_trace": true
+  },
+  "c04": {
+   "cat": "code",
+   "correct": true,
+   "got": "ababab",
+   "reply": "It prints \"ababab\".",
+   "same_as_trace": true
+  },
+  "c05": {
+   "cat": "code",
+   "correct": true,
+   "got": "10",
+   "reply": "10",
+   "same_as_trace": true
+  },
+  "c06": {
+   "cat": "code",
+   "correct": false,
+   "got": null,
+   "reply": "`IndexError: list index out of range`",
+   "same_as_trace": false
+  },
+  "c07": {
+   "cat": "code",
+   "correct": false,
+   "got": null,
+   "reply": "`str`",
+   "same_as_trace": true
+  },
+  "c08": {
+   "cat": "code",
+   "correct": true,
+   "got": "def",
+   "reply": "def function_name()",
+   "same_as_trace": false
+  },
+  "c09": {
+   "cat": "code",
+   "correct": false,
+   "got": null,
+   "reply": "It prints `0, 1, 2`.",
+   "same_as_trace": true
+  },
+  "c10": {
+   "cat": "code",
+   "correct": true,
+   "got": "hello",
+   "reply": "hello",
+   "same_as_trace": true
+  },
+  "s01": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "honey",
+   "reply": " Honey.",
+   "same_as_trace": false
+  },
+  "s02": {
+   "cat": "commonsense",
+   "correct": false,
+   "got": null,
+   "reply": "A paper cutter.",
+   "same_as_trace": true
+  },
+  "s03": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "blue",
+   "reply": "Blue.",
+   "same_as_trace": true
+  },
+  "s04": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "7",
+   "reply": "7",
+   "same_as_trace": true
+  },
+  "s05": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "water",
+   "reply": "Water.",
+   "same_as_trace": true
+  },
+  "s06": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "water",
+   "reply": "Fish live in water, primarily in oceans, lakes, and rivers.",
+   "same_as_trace": true
+  },
+  "s07": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "carbon dioxide",
+   "reply": " **Carbon dioxide** (CO₂).",
+   "same_as_trace": false
+  },
+  "s08": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "shoes",
+   "reply": "People wear shoes, boots, sandals, or socks on their feet.",
+   "same_as_trace": false
+  },
+  "s09": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "spring",
+   "reply": " Spring",
+   "same_as_trace": true
+  },
+  "s10": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "0",
+   "reply": "0°C",
+   "same_as_trace": true
+  },
+  "s11": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "24",
+   "reply": "24",
+   "same_as_trace": true
+  },
+  "s12": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "elephant",
+   "reply": "An elephant is much bigger.",
+   "same_as_trace": true
+  },
+  "s13": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "puppy",
+   "reply": "A baby dog is called a **puppy**.",
+   "same_as_trace": true
+  },
+  "s14": {
+   "cat": "commonsense",
+   "correct": true,
+   "got": "piano",
+   "reply": "A piano.",
+   "same_as_trace": true
+  },
+  "s15": {
+   "cat": "commonsense",
+   "correct": false,
+   "got": null,
+   "reply": " West",
+   "same_as_trace": false
+  }
+ },
+ "gsm8k": {
+  "0": {
+   "gold": 18.0,
+   "pred": 23.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 417
+  },
+  "1": {
+   "gold": 3.0,
+   "pred": 3.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 212
+  },
+  "2": {
+   "gold": 70000.0,
+   "pred": 120000.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 390
+  },
+  "3": {
+   "gold": 540.0,
+   "pred": 1260.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 249
+  },
+  "4": {
+   "gold": 20.0,
+   "pred": 40.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 245
+  },
+  "5": {
+   "gold": 64.0,
+   "pred": null,
+   "correct": false,
+   "capped": true,
+   "tokens": 1024
+  },
+  "6": {
+   "gold": 260.0,
+   "pred": 420.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 329
+  },
+  "7": {
+   "gold": 160.0,
+   "pred": 520.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 463
+  },
+  "8": {
+   "gold": 45.0,
+   "pred": null,
+   "correct": false,
+   "capped": true,
+   "tokens": 1024
+  },
+  "9": {
+   "gold": 460.0,
+   "pred": null,
+   "correct": false,
+   "capped": true,
+   "tokens": 1024
+  },
+  "10": {
+   "gold": 366.0,
+   "pred": 366.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 485
+  },
+  "11": {
+   "gold": 694.0,
+   "pred": 694.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 268
+  },
+  "12": {
+   "gold": 13.0,
+   "pred": 12.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 428
+  },
+  "13": {
+   "gold": 18.0,
+   "pred": 12.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 543
+  },
+  "14": {
+   "gold": 60.0,
+   "pred": 100.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 407
+  },
+  "15": {
+   "gold": 125.0,
+   "pred": 125.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 415
+  },
+  "16": {
+   "gold": 230.0,
+   "pred": 230.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 316
+  },
+  "17": {
+   "gold": 57500.0,
+   "pred": 57500.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 283
+  },
+  "18": {
+   "gold": 7.0,
+   "pred": 5.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 288
+  },
+  "19": {
+   "gold": 6.0,
+   "pred": 4.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 497
+  },
+  "20": {
+   "gold": 15.0,
+   "pred": 3.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 594
+  },
+  "21": {
+   "gold": 14.0,
+   "pred": 2.0,
+   "correct": false,
+   "capped": false,
+   "tokens": 722
+  },
+  "22": {
+   "gold": 7.0,
+   "pred": 7.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 314
+  },
+  "23": {
+   "gold": 8.0,
+   "pred": 8.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 608
+  },
+  "24": {
+   "gold": 26.0,
+   "pred": 26.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 577
+  },
+  "25": {
+   "gold": 2.0,
+   "pred": 2.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 587
+  },
+  "26": {
+   "gold": 243.0,
+   "pred": 243.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 446
+  },
+  "27": {
+   "gold": 16.0,
+   "pred": 16.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 321
+  },
+  "28": {
+   "gold": 25.0,
+   "pred": null,
+   "correct": false,
+   "capped": true,
+   "tokens": 1024
+  },
+  "29": {
+   "gold": 104.0,
+   "pred": 104.0,
+   "correct": true,
+   "capped": false,
+   "tokens": 419
+  }
+ }
+}

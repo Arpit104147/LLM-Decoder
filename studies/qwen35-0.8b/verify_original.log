@@ -1,0 +1,18 @@
+links: all inside their tensors
+[  1/100] m01 n=239 act 5.2e-05 prob 2.6e-06 resid 6.1e-04 neurons 5.2e-04 heads 5.5e-04 pushes 3.3e-04 total 1.1e-04 tokens_bad 0 attn_bad 0
+[  2/100] m02 n=225 act 2.6e-05 prob 4.6e-06 resid 7.5e-04 neurons 5.4e-04 heads 5.5e-04 pushes 2.7e-04 total 9.1e-05 tokens_bad 0 attn_bad 0
+[  3/100] m03 n=139 act 2.6e-05 prob 2.4e-06 resid 6.3e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.8e-04 total 1.5e-04 tokens_bad 0 attn_bad 0
+[  4/100] m04 n=150 act 5.2e-05 prob 3.8e-06 resid 8.2e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.3e-04 total 9.1e-05 tokens_bad 0 attn_bad 0
+[  5/100] m05 n=130 act 5.2e-05 prob 3.8e-06 resid 7.2e-04 neurons 5.2e-04 heads 5.5e-04 pushes 3.1e-04 total 8.0e-05 tokens_bad 0 attn_bad 0
+[  6/100] m06 n=226 act 5.2e-05 prob 2.4e-06 resid 6.7e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.6e-04 total 9.0e-05 tokens_bad 0 attn_bad 0
+[  7/100] m07 n=205 act 5.2e-05 prob 2.7e-06 resid 6.1e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.8e-04 total 7.2e-05 tokens_bad 0 attn_bad 0
+[  8/100] m08 n=106 act 2.6e-05 prob 3.4e-06 resid 7.7e-04 neurons 6.0e-04 heads 5.5e-04 pushes 2.3e-04 total 1.0e-04 tokens_bad 0 attn_bad 0
+[  9/100] m09 n=152 act 5.2e-05 prob 4.2e-06 resid 7.5e-04 neurons 5.2e-04 heads 5.5e-04 pushes 3.1e-04 total 7.6e-05 tokens_bad 0 attn_bad 0
+[ 10/100] m10 n=219 act 2.6e-05 prob 2.7e-06 resid 4.0e-04 neurons 5.2e-04 heads 5.5e-04 pushes 3.0e-04 total 1.0e-04 tokens_bad 0 attn_bad 0
+[ 11/100] m11 n=175 act 2.6e-05 prob 3.6e-06 resid 6.5e-04 neurons 5.4e-04 heads 5.5e-04 pushes 2.5e-04 total 8.8e-05 tokens_bad 0 attn_bad 0
+[ 12/100] m12 n=109 act 2.6e-05 prob 2.0e-06 resid 7.2e-04 neurons 5.7e-04 heads 5.5e-04 pushes 2.4e-04 total 1.0e-04 tokens_bad 0 attn_bad 0
+[ 13/100] m13 n=133 act 5.2e-05 prob 2.4e-06 resid 7.8e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.9e-04 total 1.2e-04 tokens_bad 0 attn_bad 0
+[ 14/100] m14 n=114 act 2.6e-05 prob 3.7e-06 resid 7.7e-04 neurons 6.1e-04 heads 5.5e-04 pushes 3.0e-04 total 8.5e-05 tokens_bad 0 attn_bad 0
+[ 15/100] m15 n=162 act 2.6e-05 prob 4.2e-06 resid 7.5e-04 neurons 5.2e-04 heads 5.5e-04 pushes 3.6e-04 total 1.1e-04 tokens_bad 0 attn_bad 0
+[ 16/100] m16 n=242 act 2.6e-05 prob 3.2e-06 resid 6.3e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.4e-04 total 7.9e-05 tokens_bad 0 attn_bad 0
+[ 17/100] m17 n=118 act 1.3e-05 prob 2.7e-06 resid 5.9e-04 neurons 5.2e-04 heads 5.5e-04 pushes 2.9e-04 total 1.2e-04 tokens_bad 0 attn_bad 0

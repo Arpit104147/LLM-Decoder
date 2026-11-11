@@ -1,0 +1,3127 @@
+{
+ "n": 100,
+ "accuracy": {
+  "math": {
+   "n": 25,
+   "correct": 23,
+   "mean_confidence": 0.895,
+   "reply_tokens": 127.0,
+   "answer_forms_after_layer": 21.1
+  },
+  "facts": {
+   "n": 20,
+   "correct": 18,
+   "mean_confidence": 0.75,
+   "reply_tokens": 5.8,
+   "answer_forms_after_layer": 21.9
+  },
+  "reasoning": {
+   "n": 15,
+   "correct": 5,
+   "mean_confidence": 0.617,
+   "reply_tokens": 7.1,
+   "answer_forms_after_layer": 22.2
+  },
+  "language": {
+   "n": 15,
+   "correct": 12,
+   "mean_confidence": 0.645,
+   "reply_tokens": 3.3,
+   "answer_forms_after_layer": 22.7
+  },
+  "code": {
+   "n": 10,
+   "correct": 7,
+   "mean_confidence": 0.66,
+   "reply_tokens": 4.2,
+   "answer_forms_after_layer": 22.5
+  },
+  "commonsense": {
+   "n": 15,
+   "correct": 13,
+   "mean_confidence": 0.646,
+   "reply_tokens": 5.9,
+   "answer_forms_after_layer": 22.2
+  }
+ },
+ "right_vs_wrong": {
+  "right": {
+   "n": 78,
+   "mean_confidence": 0.759,
+   "reply_tokens": 38.9,
+   "answer_forms_after_layer": 21.9
+  },
+  "wrong": {
+   "n": 22,
+   "mean_confidence": 0.609,
+   "reply_tokens": 24.5,
+   "answer_forms_after_layer": 22.2
+  }
+ },
+ "wrong": [
+  {
+   "id": "m01",
+   "cat": "math",
+   "got": 442.0,
+   "reply": "mes 7 = 161$\n    *   $230 + 161 = 391$\n4.  **L**ast: $17 \\times 23$ (This is the same as the Inner term)\n\nNow, add the results together:\n$$51 + 391 = 442$$\n\n442"
+  },
+  {
+   "id": "m20",
+   "cat": "math",
+   "got": 16.0,
+   "reply": "{\\text{Original Time}}{\\text{Original Workers}} \\times \\text{New Workers}$\nNew Time = $\\frac{8}{5} \\times 10$\nNew Time = $1.6 \\times 10$\nNew Time = 16 days.\n\n16"
+  },
+  {
+   "id": "f10",
+   "cat": "facts",
+   "got": null,
+   "reply": "The fastest land animal is the **whale shark** (or blue shark), which can reach speeds of up to 170 km/h (105 mph)."
+  },
+  {
+   "id": "f17",
+   "cat": "facts",
+   "got": null,
+   "reply": " Jupiter."
+  },
+  {
+   "id": "r01",
+   "cat": "reasoning",
+   "got": null,
+   "reply": " No"
+  },
+  {
+   "id": "r02",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "Tom."
+  },
+  {
+   "id": "r03",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "16"
+  },
+  {
+   "id": "r06",
+   "cat": "reasoning",
+   "got": null,
+   "reply": " Tuesday"
+  },
+  {
+   "id": "r08",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "s significantly less dense than iron. Therefore, a kilogram of feathers weighs approximately 1.12 kilograms, while a kilogram of iron weighs exactly 1 kilogram."
+  },
+  {
+   "id": "r09",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "11"
+  },
+  {
+   "id": "r10",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "11"
+  },
+  {
+   "id": "r13",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "30 degrees"
+  },
+  {
+   "id": "r14",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "April."
+  },
+  {
+   "id": "r15",
+   "cat": "reasoning",
+   "got": null,
+   "reply": "28 days occur in **28** months of the year."
+  },
+  {
+   "id": "l08",
+   "cat": "language",
+   "got": null,
+   "reply": "Goed."
+  },
+  {
+   "id": "l12",
+   "cat": "language",
+   "got": null,
+   "reply": "चूँ"
+  },
+  {
+   "id": "l14",
+   "cat": "language",
+   "got": null,
+   "reply": "dog"
+  },
+  {
+   "id": "c06",
+   "cat": "code",
+   "got": null,
+   "reply": "`-1`"
+  },
+  {
+   "id": "c07",
+   "cat": "code",
+   "got": null,
+   "reply": "`str`"
+  },
+  {
+   "id": "c09",
+   "cat": "code",
+   "got": null,
+   "reply": "It prints `0, 1, 2`."
+  },
+  {
+   "id": "s02",
+   "cat": "commonsense",
+   "got": null,
+   "reply": "A paper cutter."
+  },
+  {
+   "id": "s07",
+   "cat": "commonsense",
+   "got": null,
+   "reply": " Oxygen."
+  }
+ ],
+ "layer_activity": {
+  "math": {
+   "attn_rel": [
+    1.0160000324249268,
+    1.1460000276565552,
+    1.0549999475479126,
+    0.9940000176429749,
+    0.9259999990463257,
+    0.9710000157356262,
+    1.0920000076293945,
+    0.9330000281333923,
+    0.8899999856948853,
+    0.8690000176429749,
+    0.9599999785423279,
+    0.8690000176429749,
+    1.0219999551773071,
+    0.9580000042915344,
+    0.9639999866485596,
+    1.0230000019073486,
+    1.0,
+    1.0479999780654907,
+    1.00600004196167,
+    1.0579999685287476,
+    1.0240000486373901,
+    0.9620000123977661,
+    1.0420000553131104,
+    1.0190000534057617
+   ],
+   "mlp_rel": [
+    1.0019999742507935,
+    0.9829999804496765,
+    0.972000002861023,
+    0.8809999823570251,
+    0.8960000276565552,
+    0.9049999713897705,
+    0.9440000057220459,
+    0.9269999861717224,
+    0.8769999742507935,
+    0.8759999871253967,
+    0.9309999942779541,
+    0.9079999923706055,
+    0.9179999828338623,
+    0.9390000104904175,
+    0.9409999847412109,
+    1.0240000486373901,
+    1.0290000438690186,
+    1.027999997138977,
+    0.9589999914169312,
+    1.0540000200271606,
+    1.0329999923706055,
+    1.0959999561309814,
+    1.0470000505447388,
+    0.8960000276565552
+   ]
+  },
+  "facts": {
+   "attn_rel": [
+    1.034999966621399,
+    0.9829999804496765,
+    0.9860000014305115,
+    1.0360000133514404,
+    1.0089999437332153,
+    1.0119999647140503,
+    0.9710000157356262,
+    1.0119999647140503,
+    1.0169999599456787,
+    1.031000018119812,
+    0.9800000190734863,
+    0.9559999704360962,
+    0.9509999752044678,
+    0.9539999961853027,
+    0.9919999837875366,
+    0.8949999809265137,
+    0.9509999752044678,
+    0.9350000023841858,
+    1.0740000009536743,
+    0.9190000295639038,
+    1.1119999885559082,
+    1.0460000038146973,
+    0.9599999785423279,
+    0.9750000238418579
+   ],
+   "mlp_rel": [
+    1.0119999647140503,
+    1.031000018119812,
+    1.0410000085830688,
+    1.1009999513626099,
+    1.059999942779541,
+    1.0570000410079956,
+    1.0449999570846558,
+    1.031000018119812,
+    1.0429999828338623,
+    1.0260000228881836,
+    1.0069999694824219,
+    0.9940000176429749,
+    0.9789999723434448,
+    0.9769999980926514,
+    1.0180000066757202,
+    0.9929999709129333,
+    1.0080000162124634,
+    0.9800000190734863,
+    1.0989999771118164,
+    1.0360000133514404,
+    1.0729999542236328,
+    1.0230000019073486,
+    0.9980000257492065,
+    0.9139999747276306
+   ]
+  },
+  "reasoning": {
+   "attn_rel": [
+    0.9900000095367432,
+    0.9269999861717224,
+    0.9909999966621399,
+    0.9940000176429749,
+    1.0329999923706055,
+    0.9789999723434448,
+    0.9909999966621399,
+    1.0720000267028809,
+    1.0470000505447388,
+    1.0750000476837158,
+    1.0290000438690186,
+    1.1330000162124634,
+    1.0219999551773071,
+    1.0529999732971191,
+    1.0399999618530273,
+    1.069000005722046,
+    1.0010000467300415,
+    0.9079999923706055,
+    0.8970000147819519,
+    1.069000005722046,
+    0.9150000214576721,
+    0.9729999899864197,
+    1.003000020980835,
+    1.031999945640564
+   ],
+   "mlp_rel": [
+    0.9929999709129333,
+    0.9710000157356262,
+    0.9670000076293945,
+    0.9800000190734863,
+    1.003999948501587,
+    0.9990000128746033,
+    0.9950000047683716,
+    1.0240000486373901,
+    1.0329999923706055,
+    1.0740000009536743,
+    1.0269999504089355,
+    1.059000015258789,
+    1.065999984741211,
+    1.0420000553131104,
+    1.0260000228881836,
+    0.9819999933242798,
+    0.9850000143051147,
+    0.9810000061988831,
+    0.9660000205039978,
+    0.9459999799728394,
+    0.9169999957084656,
+    0.8970000147819519,
+    0.9200000166893005,
+    1.1059999465942383
+   ]
+  },
+  "language": {
+   "attn_rel": [
+    0.9760000109672546,
+    0.9470000267028809,
+    0.9559999704360962,
+    0.996999979019165,
+    1.0700000524520874,
+    0.9940000176429749,
+    0.9549999833106995,
+    1.031000018119812,
+    1.1380000114440918,
+    1.0390000343322754,
+    1.0429999828338623,
+    1.0809999704360962,
+    1.031000018119812,
+    1.0390000343322754,
+    0.984000027179718,
+    0.9900000095367432,
+    1.093999981880188,
+    0.9769999980926514,
+    0.9190000295639038,
+    0.9829999804496765,
+    1.0410000085830688,
+    0.9909999966621399,
+    1.00600004196167,
+    0.9850000143051147
+   ],
+   "mlp_rel": [
+    1.0329999923706055,
+    1.0499999523162842,
+    1.0509999990463257,
+    1.0460000038146973,
+    1.0479999780654907,
+    1.0379999876022339,
+    0.9950000047683716,
+    1.0399999618530273,
+    1.069000005722046,
+    1.0579999685287476,
+    1.0329999923706055,
+    1.0670000314712524,
+    1.069000005722046,
+    1.0479999780654907,
+    1.0219999551773071,
+    0.9980000257492065,
+    0.9649999737739563,
+    0.9890000224113464,
+    0.9559999704360962,
+    0.953000009059906,
+    0.9800000190734863,
+    0.9789999723434448,
+    1.0360000133514404,
+    1.1540000438690186
+   ]
+  },
+  "code": {
+   "attn_rel": [
+    0.9390000104904175,
+    0.9570000171661377,
+    0.9919999837875366,
+    0.8679999709129333,
+    0.9909999966621399,
+    1.0420000553131104,
+    0.9539999961853027,
+    0.9909999966621399,
+    0.9330000281333923,
+    1.0010000467300415,
+    1.0180000066757202,
+    1.1239999532699585,
+    0.9869999885559082,
+    0.949999988079071,
+    0.996999979019165,
+    1.0640000104904175,
+    1.0369999408721924,
+    1.0989999771118164,
+    1.0759999752044678,
+    0.890999972820282,
+    0.8009999990463257,
+    0.9440000057220459,
+    0.9879999756813049,
+    0.9819999933242798
+   ],
+   "mlp_rel": [
+    1.0049999952316284,
+    1.0169999599456787,
+    0.9509999752044678,
+    0.9819999933242798,
+    1.0049999952316284,
+    1.0149999856948853,
+    1.031999945640564,
+    1.0069999694824219,
+    1.0230000019073486,
+    0.996999979019165,
+    1.0379999876022339,
+    1.0570000410079956,
+    1.0540000200271606,
+    1.0449999570846558,
+    1.0110000371932983,
+    1.0099999904632568,
+    0.9929999709129333,
+    1.0190000534057617,
+    0.9589999914169312,
+    0.9010000228881836,
+    0.8849999904632568,
+    0.8989999890327454,
+    0.9369999766349792,
+    1.0850000381469727
+   ]
+  },
+  "commonsense": {
+   "attn_rel": [
+    1.0,
+    0.9340000152587891,
+    0.9860000014305115,
+    1.059000015258789,
+    1.0140000581741333,
+    1.031000018119812,
+    0.9710000157356262,
+    1.0,
+    1.0210000276565552,
+    1.062000036239624,
+    1.0089999437332153,
+    0.9789999723434448,
+    0.9850000143051147,
+    1.0729999542236328,
+    1.0479999780654907,
+    1.0010000467300415,
+    0.9470000267028809,
+    1.0549999475479126,
+    1.0260000228881836,
+    1.031999945640564,
+    0.9869999885559082,
+    1.0750000476837158,
+    0.9819999933242798,
+    0.996999979019165
+   ],
+   "mlp_rel": [
+    0.9509999752044678,
+    0.9539999961853027,
+    1.00600004196167,
+    1.0499999523162842,
+    1.0379999876022339,
+    1.034999966621399,
+    1.0230000019073486,
+    1.0099999904632568,
+    1.031999945640564,
+    1.0410000085830688,
+    1.0199999809265137,
+    0.9959999918937683,
+    0.9929999709129333,
+    1.0119999647140503,
+    1.0180000066757202,
+    0.9819999933242798,
+    0.9950000047683716,
+    0.996999979019165,
+    1.0410000085830688,
+    1.0299999713897705,
+    1.0290000438690186,
+    1.0,
+    1.0099999904632568,
+    0.9710000157356262
+   ]
+  }
+ },
+ "layer_push": {
+  "math": {
+   "attn": [
+    -1.613,
+    0.029,
+    0.084,
+    0.027,
+    -0.005,
+    -0.025,
+    0.123,
+    -0.091,
+    0.024,
+    -0.008,
+    0.102,
+    0.024,
+    0.205,
+    0.207,
+    0.222,
+    0.37,
+    0.537,
+    0.852,
+    0.891,
+    0.461,
+    1.217,
+    1.492,
+    1.821,
+    6.504
+   ],
+   "mlp": [
+    -0.014,
+    -0.035,
+    -0.034,
+    0.013,
+    0.034,
+    0.035,
+    -0.023,
+    -0.002,
+    -0.064,
+    0.003,
+    -0.007,
+    -0.014,
+    0.043,
+    -0.031,
+    0.264,
+    0.361,
+    0.262,
+    0.513,
+    1.079,
+    0.911,
+    1.275,
+    1.798,
+    1.846,
+    4.404
+   ]
+  },
+  "facts": {
+   "attn": [
+    -0.077,
+    0.003,
+    0.009,
+    0.055,
+    -0.015,
+    -0.011,
+    -0.016,
+    -0.028,
+    0.017,
+    0.047,
+    0.057,
+    0.024,
+    0.097,
+    0.151,
+    0.215,
+    0.17,
+    0.885,
+    0.764,
+    0.597,
+    0.028,
+    1.442,
+    1.087,
+    1.101,
+    4.095
+   ],
+   "mlp": [
+    0.009,
+    -0.003,
+    0.083,
+    -0.121,
+    0.0,
+    -0.051,
+    -0.095,
+    0.015,
+    0.023,
+    0.061,
+    -0.01,
+    0.036,
+    0.067,
+    0.071,
+    0.59,
+    0.512,
+    0.153,
+    0.228,
+    0.851,
+    0.737,
+    0.785,
+    0.757,
+    1.683,
+    4.169
+   ]
+  },
+  "reasoning": {
+   "attn": [
+    -1.103,
+    0.005,
+    -0.004,
+    -0.019,
+    -0.005,
+    -0.05,
+    0.056,
+    -0.019,
+    0.021,
+    0.031,
+    0.028,
+    0.022,
+    0.103,
+    0.172,
+    0.279,
+    0.092,
+    0.578,
+    0.723,
+    0.283,
+    0.321,
+    0.867,
+    0.868,
+    1.504,
+    5.305
+   ],
+   "mlp": [
+    -0.054,
+    0.033,
+    -0.076,
+    0.002,
+    -0.006,
+    0.067,
+    -0.153,
+    0.008,
+    0.081,
+    -0.04,
+    0.022,
+    0.015,
+    0.079,
+    -0.099,
+    0.177,
+    0.257,
+    -0.061,
+    0.298,
+    1.101,
+    0.542,
+    0.408,
+    1.472,
+    1.253,
+    5.325
+   ]
+  },
+  "language": {
+   "attn": [
+    0.063,
+    -0.022,
+    0.027,
+    0.024,
+    -0.037,
+    0.022,
+    0.014,
+    -0.003,
+    0.051,
+    0.011,
+    0.084,
+    0.046,
+    0.139,
+    0.26,
+    0.241,
+    0.218,
+    0.624,
+    0.86,
+    0.415,
+    0.26,
+    0.711,
+    1.131,
+    1.043,
+    3.627
+   ],
+   "mlp": [
+    0.007,
+    -0.047,
+    0.075,
+    -0.06,
+    -0.054,
+    -0.066,
+    -0.008,
+    -0.028,
+    -0.034,
+    0.031,
+    0.011,
+    -0.103,
+    -0.06,
+    0.025,
+    0.246,
+    0.334,
+    0.043,
+    0.381,
+    0.629,
+    0.603,
+    1.017,
+    0.848,
+    1.312,
+    6.033
+   ]
+  },
+  "code": {
+   "attn": [
+    -1.315,
+    0.013,
+    -0.026,
+    -0.042,
+    -0.022,
+    0.002,
+    -0.045,
+    -0.009,
+    -0.036,
+    -0.009,
+    0.013,
+    0.019,
+    0.116,
+    0.166,
+    0.285,
+    0.031,
+    0.543,
+    1.019,
+    0.382,
+    0.187,
+    0.651,
+    1.791,
+    1.438,
+    5.315
+   ],
+   "mlp": [
+    0.006,
+    0.049,
+    -0.113,
+    -0.028,
+    -0.091,
+    0.12,
+    -0.068,
+    -0.038,
+    0.112,
+    0.015,
+    0.015,
+    0.016,
+    0.103,
+    -0.014,
+    0.184,
+    0.245,
+    0.099,
+    0.305,
+    0.728,
+    0.782,
+    0.602,
+    1.38,
+    1.227,
+    4.642
+   ]
+  },
+  "commonsense": {
+   "attn": [
+    -0.278,
+    0.005,
+    0.009,
+    -0.001,
+    0.019,
+    0.003,
+    -0.013,
+    -0.02,
+    0.039,
+    0.029,
+    0.059,
+    0.026,
+    0.139,
+    0.237,
+    0.259,
+    0.315,
+    0.665,
+    0.91,
+    0.659,
+    0.069,
+    0.669,
+    1.098,
+    1.041,
+    4.159
+   ],
+   "mlp": [
+    0.014,
+    0.02,
+    0.012,
+    -0.02,
+    -0.065,
+    0.002,
+    -0.069,
+    -0.019,
+    0.071,
+    -0.041,
+    -0.011,
+    0.014,
+    0.029,
+    0.04,
+    0.334,
+    0.355,
+    0.19,
+    0.382,
+    0.995,
+    1.201,
+    0.725,
+    1.163,
+    1.823,
+    3.913
+   ]
+  }
+ },
+ "specialists": {
+  "math": [
+   {
+    "layer": 23,
+    "neuron": 655,
+    "d": -4.86,
+    "mean_act_in_cat": 0.133,
+    "mean_act_elsewhere": 0.359,
+    "promotes": [
+     "‑",
+     "‐",
+     "-",
+     "-d",
+     "-g",
+     "-l"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 223,
+    "d": 4.63,
+    "mean_act_in_cat": 0.628,
+    "mean_act_elsewhere": -0.158,
+    "promotes": [
+     "os",
+     "imini",
+     "�",
+     "room",
+     "仿佛在",
+     "يات"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 1181,
+    "d": -4.38,
+    "mean_act_in_cat": -0.17,
+    "mean_act_elsewhere": -0.029,
+    "promotes": [
+     " –",
+     "–",
+     " –,",
+     "――",
+     " –**",
+     "––"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 141,
+    "d": 4.36,
+    "mean_act_in_cat": 0.418,
+    "mean_act_elsewhere": -0.13,
+    "promotes": [
+     " **„",
+     " entirely",
+     " \"\\\",",
+     " \"/\",",
+     " altogether",
+     " [*"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 699,
+    "d": 4.21,
+    "mean_act_in_cat": -0.054,
+    "mean_act_elsewhere": -0.15,
+    "promotes": [
+     "LEV",
+     "comb",
+     "levant",
+     "ifes",
+     "IFE",
+     "פק"
+    ]
+   },
+   {
+    "layer": 6,
+    "neuron": 303,
+    "d": -4.19,
+    "mean_act_in_cat": -0.125,
+    "mean_act_elsewhere": 0.004,
+    "promotes": [
+     "多人",
+     " numerous",
+     " discriminator",
+     "多数",
+     "白了",
+     "agg"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 100,
+    "d": 4.1,
+    "mean_act_in_cat": 0.051,
+    "mean_act_elsewhere": -0.014,
+    "promotes": [
+     "anu",
+     " ('",
+     "vant",
+     "zysta",
+     "enner",
+     "aida"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 278,
+    "d": 4.02,
+    "mean_act_in_cat": 0.385,
+    "mean_act_elsewhere": 0.025,
+    "promotes": [
+     " and",
+     " or",
+     "and",
+     " và",
+     " dan",
+     "且具有"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 314,
+    "d": -4.0,
+    "mean_act_in_cat": -0.098,
+    "mean_act_elsewhere": 0.025,
+    "promotes": [
+     " whatsoever",
+     "有关的",
+     " 혹은",
+     "或以",
+     "zuk",
+     " ansehen"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 1439,
+    "d": 3.93,
+    "mean_act_in_cat": 0.077,
+    "mean_act_elsewhere": 0.008,
+    "promotes": [
+     "()):",
+     ")\":",
+     ".):",
+     "以下条件",
+     " ):",
+     "():"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 128,
+    "d": -3.84,
+    "mean_act_in_cat": -0.058,
+    "mean_act_elsewhere": 0.072,
+    "promotes": [
+     "顿了",
+     "omot",
+     "麾",
+     "iley",
+     "worfen",
+     "所见"
+    ]
+   },
+   {
+    "layer": 16,
+    "neuron": 884,
+    "d": -3.81,
+    "mean_act_in_cat": -0.202,
+    "mean_act_elsewhere": -0.029,
+    "promotes": [
+     " Komponenten",
+     " Komponent",
+     "Component",
+     " Components",
+     "components",
+     "component"
+    ]
+   }
+  ],
+  "facts": [
+   {
+    "layer": 12,
+    "neuron": 1829,
+    "d": 2.76,
+    "mean_act_in_cat": 0.078,
+    "mean_act_elsewhere": -0.0,
+    "promotes": [
+     "或由",
+     "复制或",
+     "或被",
+     " cualquiera",
+     "Either",
+     "或少"
+    ]
+   },
+   {
+    "layer": 7,
+    "neuron": 3258,
+    "d": 2.58,
+    "mean_act_in_cat": 0.087,
+    "mean_act_elsewhere": 0.004,
+    "promotes": [
+     "未知",
+     "unknown",
+     "未知的",
+     "ULD",
+     "-fed",
+     " unknown"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 2265,
+    "d": -2.55,
+    "mean_act_in_cat": -0.164,
+    "mean_act_elsewhere": -0.017,
+    "promotes": [
+     " classics",
+     " cheered",
+     " Kors",
+     "adura",
+     "alisation",
+     "大多是"
+    ]
+   },
+   {
+    "layer": 5,
+    "neuron": 1373,
+    "d": 2.53,
+    "mean_act_in_cat": 0.08,
+    "mean_act_elsewhere": 0.014,
+    "promotes": [
+     ".prop",
+     "ชัน",
+     "四",
+     "ust",
+     ".DESC",
+     " tả"
+    ]
+   },
+   {
+    "layer": 9,
+    "neuron": 2209,
+    "d": -2.53,
+    "mean_act_in_cat": -0.071,
+    "mean_act_elsewhere": -0.006,
+    "promotes": [
+     " mill",
+     " contin",
+     " diab",
+     " es",
+     "DI",
+     " labor"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 558,
+    "d": 2.47,
+    "mean_act_in_cat": 0.086,
+    "mean_act_elsewhere": 0.013,
+    "promotes": [
+     "社会",
+     "社会上",
+     " Popular",
+     "一些",
+     "庞大",
+     "民间"
+    ]
+   },
+   {
+    "layer": 16,
+    "neuron": 1297,
+    "d": -2.44,
+    "mean_act_in_cat": -0.149,
+    "mean_act_elsewhere": -0.03,
+    "promotes": [
+     "fo",
+     " fore",
+     "ith",
+     "ници",
+     "fore",
+     "izia"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 2144,
+    "d": -2.43,
+    "mean_act_in_cat": -0.091,
+    "mean_act_elsewhere": -0.005,
+    "promotes": [
+     "某个",
+     "某",
+     "某种",
+     "某個",
+     "某某",
+     "某種"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 2356,
+    "d": -2.39,
+    "mean_act_in_cat": -0.072,
+    "mean_act_elsewhere": -0.011,
+    "promotes": [
+     "系统及",
+     "诊断及",
+     "模式和",
+     "投资和",
+     "部门和",
+     "以及各种"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 3171,
+    "d": -2.36,
+    "mean_act_in_cat": -0.083,
+    "mean_act_elsewhere": -0.026,
+    "promotes": [
+     ";**",
+     ";",
+     ".;",
+     ";',",
+     ";\",",
+     "—they"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 3126,
+    "d": 2.3,
+    "mean_act_in_cat": 0.063,
+    "mean_act_elsewhere": 0.011,
+    "promotes": [
+     "查找",
+     "查",
+     " Blind",
+     " rivend",
+     " movements",
+     " <"
+    ]
+   },
+   {
+    "layer": 16,
+    "neuron": 331,
+    "d": -2.29,
+    "mean_act_in_cat": -0.064,
+    "mean_act_elsewhere": 0.014,
+    "promotes": [
+     "йтесь",
+     "reich",
+     "ático",
+     " Peri",
+     "朋",
+     " тор"
+    ]
+   }
+  ],
+  "reasoning": [
+   {
+    "layer": 9,
+    "neuron": 1136,
+    "d": -2.35,
+    "mean_act_in_cat": -0.067,
+    "mean_act_elsewhere": -0.028,
+    "promotes": [
+     "iah",
+     "被她",
+     "汪洋",
+     "Find",
+     "sp",
+     "洪"
+    ]
+   },
+   {
+    "layer": 6,
+    "neuron": 122,
+    "d": -2.2,
+    "mean_act_in_cat": -0.122,
+    "mean_act_elsewhere": -0.023,
+    "promotes": [
+     "cores",
+     "_given",
+     "))*(",
+     "rej",
+     " >(",
+     "整理的"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 501,
+    "d": 2.11,
+    "mean_act_in_cat": 0.085,
+    "mean_act_elsewhere": 0.031,
+    "promotes": [
+     "дини",
+     "和特点",
+     "老爸",
+     " aste",
+     " binge",
+     "爸"
+    ]
+   },
+   {
+    "layer": 16,
+    "neuron": 443,
+    "d": -2.08,
+    "mean_act_in_cat": -0.084,
+    "mean_act_elsewhere": -0.008,
+    "promotes": [
+     "ør",
+     ":user",
+     ":E",
+     "»:",
+     ":C",
+     ":B"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 79,
+    "d": -2.0,
+    "mean_act_in_cat": -0.066,
+    "mean_act_elsewhere": 0.003,
+    "promotes": [
+     "途",
+     " ines",
+     "utant",
+     "esa",
+     "ichten",
+     "idf"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 233,
+    "d": 1.97,
+    "mean_act_in_cat": 0.165,
+    "mean_act_elsewhere": 0.073,
+    "promotes": [
+     "isert",
+     "ничный",
+     "}`).",
+     "odal",
+     "绝对不能",
+     "рати"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 370,
+    "d": 1.96,
+    "mean_act_in_cat": 0.106,
+    "mean_act_elsewhere": 0.022,
+    "promotes": [
+     "antal",
+     "mişti",
+     "иден",
+     " листо",
+     " integrated",
+     "冷的"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 904,
+    "d": 1.96,
+    "mean_act_in_cat": 0.101,
+    "mean_act_elsewhere": 0.03,
+    "promotes": [
+     "s",
+     "ford",
+     "雯",
+     " should",
+     "值得",
+     " or"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 2293,
+    "d": 1.91,
+    "mean_act_in_cat": 0.064,
+    "mean_act_elsewhere": -0.017,
+    "promotes": [
+     " driving",
+     " drivers",
+     "驱动",
+     " Network",
+     " Drivers",
+     " драй"
+    ]
+   },
+   {
+    "layer": 9,
+    "neuron": 890,
+    "d": 1.9,
+    "mean_act_in_cat": 0.063,
+    "mean_act_elsewhere": 0.029,
+    "promotes": [
+     " desto",
+     "从无",
+     "两项",
+     "直接从",
+     "emblée",
+     "ETF"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 1094,
+    "d": -1.89,
+    "mean_act_in_cat": -0.165,
+    "mean_act_elsewhere": -0.018,
+    "promotes": [
+     " kỷ",
+     "atile",
+     "גיע",
+     " Visa",
+     "闻名",
+     "ady"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 2430,
+    "d": -1.86,
+    "mean_act_in_cat": -0.169,
+    "mean_act_elsewhere": -0.024,
+    "promotes": [
+     "所欲",
+     "也使",
+     "owing",
+     "وب",
+     "puts",
+     "make"
+    ]
+   }
+  ],
+  "language": [
+   {
+    "layer": 8,
+    "neuron": 2757,
+    "d": -2.92,
+    "mean_act_in_cat": -0.073,
+    "mean_act_elsewhere": -0.029,
+    "promotes": [
+     "不满",
+     " 아우",
+     "不当",
+     " Chamber",
+     "要比",
+     "alur"
+    ]
+   },
+   {
+    "layer": 17,
+    "neuron": 2921,
+    "d": 2.9,
+    "mean_act_in_cat": 0.089,
+    "mean_act_elsewhere": -0.05,
+    "promotes": [
+     "代",
+     " Core",
+     "iard",
+     "-era",
+     "itta",
+     "lobe"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 2395,
+    "d": 2.88,
+    "mean_act_in_cat": 0.071,
+    "mean_act_elsewhere": 0.013,
+    "promotes": [
+     "ivities",
+     "sat",
+     "大放",
+     " bul",
+     " dilat",
+     "公司将"
+    ]
+   },
+   {
+    "layer": 9,
+    "neuron": 101,
+    "d": -2.86,
+    "mean_act_in_cat": -0.073,
+    "mean_act_elsewhere": 0.005,
+    "promotes": [
+     "iki",
+     "  ",
+     "atik",
+     "落下",
+     "洞察",
+     "p"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 2743,
+    "d": 2.64,
+    "mean_act_in_cat": 0.132,
+    "mean_act_elsewhere": 0.041,
+    "promotes": [
+     "可能就",
+     "可能需要",
+     "可能对",
+     "很可能",
+     "可能就是",
+     "可能"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 1804,
+    "d": -2.61,
+    "mean_act_in_cat": -0.072,
+    "mean_act_elsewhere": -0.021,
+    "promotes": [
+     " all",
+     " sign",
+     " both",
+     " ",
+     " (",
+     "*"
+    ]
+   },
+   {
+    "layer": 20,
+    "neuron": 305,
+    "d": -2.57,
+    "mean_act_in_cat": -0.209,
+    "mean_act_elsewhere": -0.107,
+    "promotes": [
+     " value",
+     " Value",
+     "value",
+     "值",
+     "值的",
+     "价值"
+    ]
+   },
+   {
+    "layer": 16,
+    "neuron": 1224,
+    "d": -2.56,
+    "mean_act_in_cat": -0.083,
+    "mean_act_elsewhere": -0.015,
+    "promotes": [
+     " ust",
+     " dür",
+     "up",
+     "ism",
+     " up",
+     "防备"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 1351,
+    "d": -2.53,
+    "mean_act_in_cat": -0.486,
+    "mean_act_elsewhere": -0.134,
+    "promotes": [
+     "使我",
+     "也是我",
+     "amble",
+     "我也是",
+     "我先",
+     "我真的"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 3554,
+    "d": -2.51,
+    "mean_act_in_cat": -0.154,
+    "mean_act_elsewhere": -0.044,
+    "promotes": [
+     " will",
+     "will",
+     "意愿",
+     " Will",
+     " volonté",
+     "任意"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 123,
+    "d": 2.5,
+    "mean_act_in_cat": 0.246,
+    "mean_act_elsewhere": 0.14,
+    "promotes": [
+     " adına",
+     ">About",
+     "ály",
+     " cuest",
+     "]{",
+     "endere"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 607,
+    "d": -2.48,
+    "mean_act_in_cat": -0.156,
+    "mean_act_elsewhere": -0.05,
+    "promotes": [
+     "ورها",
+     " simila",
+     "cient",
+     "也是很",
+     "سات",
+     "依然是"
+    ]
+   }
+  ],
+  "code": [
+   {
+    "layer": 23,
+    "neuron": 165,
+    "d": -5.62,
+    "mean_act_in_cat": -1.344,
+    "mean_act_elsewhere": -0.202,
+    "promotes": [
+     "際",
+     "omin",
+     "-food",
+     " doğal",
+     " Scientific",
+     " LABOR"
+    ]
+   },
+   {
+    "layer": 17,
+    "neuron": 603,
+    "d": -5.12,
+    "mean_act_in_cat": -0.207,
+    "mean_act_elsewhere": -0.041,
+    "promotes": [
+     "随机",
+     "random",
+     " random",
+     "Random",
+     " Random",
+     " randomness"
+    ]
+   },
+   {
+    "layer": 15,
+    "neuron": 3279,
+    "d": 4.97,
+    "mean_act_in_cat": 0.215,
+    "mean_act_elsewhere": -0.0,
+    "promotes": [
+     " mil",
+     "ypo",
+     "**-",
+     "ye",
+     "бата",
+     "heen"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 939,
+    "d": -4.52,
+    "mean_act_in_cat": -1.548,
+    "mean_act_elsewhere": -0.335,
+    "promotes": [
+     "opping",
+     "ruptions",
+     "ído",
+     "agog",
+     "Ground",
+     "-ground"
+    ]
+   },
+   {
+    "layer": 15,
+    "neuron": 1573,
+    "d": 4.19,
+    "mean_act_in_cat": 0.109,
+    "mean_act_elsewhere": -0.042,
+    "promotes": [
+     "Cer",
+     " cer",
+     "cer",
+     "顷",
+     "Bound",
+     "alos"
+    ]
+   },
+   {
+    "layer": 15,
+    "neuron": 1754,
+    "d": -3.99,
+    "mean_act_in_cat": -0.859,
+    "mean_act_elsewhere": -0.102,
+    "promotes": [
+     "ardy",
+     "簧",
+     "amin",
+     "負",
+     "荷载",
+     "-source"
+    ]
+   },
+   {
+    "layer": 15,
+    "neuron": 171,
+    "d": -3.89,
+    "mean_act_in_cat": -0.296,
+    "mean_act_elsewhere": -0.124,
+    "promotes": [
+     " container",
+     " style",
+     " containers",
+     "imony",
+     " Container",
+     "容器"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 2320,
+    "d": -3.81,
+    "mean_act_in_cat": -0.222,
+    "mean_act_elsewhere": -0.024,
+    "promotes": [
+     "้อน",
+     "iach",
+     "lien",
+     " зе",
+     "stead",
+     "ení"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 313,
+    "d": -3.74,
+    "mean_act_in_cat": -0.13,
+    "mean_act_elsewhere": -0.041,
+    "promotes": [
+     " {}:",
+     " Keys",
+     "aque",
+     " keyed",
+     "expired",
+     "oses"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 1166,
+    "d": 3.66,
+    "mean_act_in_cat": 0.18,
+    "mean_act_elsewhere": 0.033,
+    "promotes": [
+     " results",
+     " result",
+     "结果",
+     "results",
+     " Results",
+     "Results"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 3514,
+    "d": 3.61,
+    "mean_act_in_cat": 0.185,
+    "mean_act_elsewhere": -0.014,
+    "promotes": [
+     "land",
+     "SSID",
+     " bulls",
+     " ballon",
+     "lands",
+     "asion"
+    ]
+   },
+   {
+    "layer": 4,
+    "neuron": 1901,
+    "d": -3.59,
+    "mean_act_in_cat": -0.096,
+    "mean_act_elsewhere": -0.011,
+    "promotes": [
+     " my",
+     "мете",
+     "息",
+     "iales",
+     "ña",
+     "我必须"
+    ]
+   }
+  ],
+  "commonsense": [
+   {
+    "layer": 4,
+    "neuron": 2911,
+    "d": -2.06,
+    "mean_act_in_cat": -0.066,
+    "mean_act_elsewhere": -0.013,
+    "promotes": [
+     "xico",
+     "一年以上",
+     "Ups",
+     "rite",
+     "up",
+     "勢"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 1441,
+    "d": 2.02,
+    "mean_act_in_cat": -0.104,
+    "mean_act_elsewhere": -0.162,
+    "promotes": [
+     "的结构",
+     "的方向",
+     "的条件",
+     "的模式",
+     "的效果",
+     "的概念"
+    ]
+   },
+   {
+    "layer": 7,
+    "neuron": 2942,
+    "d": -1.96,
+    "mean_act_in_cat": -0.064,
+    "mean_act_elsewhere": -0.018,
+    "promotes": [
+     "istan",
+     "工作目标",
+     "危险因素",
+     "oes",
+     " batu",
+     " hob"
+    ]
+   },
+   {
+    "layer": 20,
+    "neuron": 115,
+    "d": 1.93,
+    "mean_act_in_cat": 0.113,
+    "mean_act_elsewhere": 0.029,
+    "promotes": [
+     " inner",
+     " ones",
+     " incoming",
+     " likelihood",
+     "시켰",
+     " entire"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 2722,
+    "d": -1.84,
+    "mean_act_in_cat": -0.102,
+    "mean_act_elsewhere": 0.009,
+    "promotes": [
+     " token",
+     " tokens",
+     " Token",
+     "token",
+     " gas",
+     "Token"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 3403,
+    "d": -1.82,
+    "mean_act_in_cat": -0.072,
+    "mean_act_elsewhere": 0.011,
+    "promotes": [
+     " cor",
+     " Cor",
+     "Cor",
+     "cor",
+     "-cor",
+     " Kor"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 319,
+    "d": -1.82,
+    "mean_act_in_cat": -0.089,
+    "mean_act_elsewhere": -0.019,
+    "promotes": [
+     "本次",
+     "avo",
+     " isted",
+     "طن",
+     "暂定",
+     "amar"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 2345,
+    "d": -1.81,
+    "mean_act_in_cat": -0.097,
+    "mean_act_elsewhere": -0.029,
+    "promotes": [
+     "ISM",
+     " sample",
+     " instance",
+     "USE",
+     "OME",
+     "läss"
+    ]
+   },
+   {
+    "layer": 15,
+    "neuron": 1850,
+    "d": 1.79,
+    "mean_act_in_cat": 0.16,
+    "mean_act_elsewhere": 0.038,
+    "promotes": [
+     "上过",
+     "过山",
+     " replacements",
+     "layan",
+     "主委",
+     "代表的"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 2953,
+    "d": 1.77,
+    "mean_act_in_cat": 0.106,
+    "mean_act_elsewhere": 0.013,
+    "promotes": [
+     "NES",
+     "[arg",
+     "核心价值",
+     "agic",
+     "ugas",
+     "装的"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 1667,
+    "d": -1.77,
+    "mean_act_in_cat": -0.094,
+    "mean_act_elsewhere": -0.029,
+    "promotes": [
+     " assist",
+     "辅助",
+     " aid",
+     " assistance",
+     " Assist",
+     " assists"
+    ]
+   },
+   {
+    "layer": 12,
+    "neuron": 2065,
+    "d": -1.74,
+    "mean_act_in_cat": -0.158,
+    "mean_act_elsewhere": -0.047,
+    "promotes": [
+     "�",
+     "chu",
+     "救",
+     "秘密",
+     "벽",
+     "Imagine"
+    ]
+   }
+  ]
+ },
+ "specialist_layers": {
+  "math": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   5
+  ],
+  "facts": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0,
+   2,
+   3,
+   1,
+   1,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "reasoning": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   2,
+   2,
+   0,
+   0,
+   1,
+   3,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "language": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   3,
+   2,
+   0,
+   0,
+   1,
+   1,
+   2,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "code": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   4,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   0,
+   3
+  ],
+  "commonsense": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   2,
+   1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   2
+  ]
+ },
+ "right_vs_wrong_neurons": {
+  "categories": [
+   "math",
+   "facts",
+   "reasoning",
+   "language",
+   "code",
+   "commonsense"
+  ],
+  "n_right": 78,
+  "n_wrong": 22,
+  "max_abs_d_by_chance_95pct": 1.25,
+  "top": [
+   {
+    "layer": 14,
+    "neuron": 3158,
+    "d": -1.1,
+    "higher_when": "wrong",
+    "promotes": [
+     "lom",
+     "aat",
+     "割",
+     "尔顿",
+     "并接受",
+     " pate"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 1764,
+    "d": 1.02,
+    "higher_when": "right",
+    "promotes": [
+     "succ",
+     "étel",
+     " succ",
+     "详解",
+     "tores",
+     "mp"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 75,
+    "d": -1.0,
+    "higher_when": "wrong",
+    "promotes": [
+     "滿足",
+     " definition",
+     " hiểu",
+     " račun",
+     "价格也",
+     "석을"
+    ]
+   },
+   {
+    "layer": 0,
+    "neuron": 990,
+    "d": 0.98,
+    "higher_when": "right",
+    "promotes": [
+     "但他的",
+     "我的人",
+     "通了",
+     "这样的人",
+     "zd",
+     "到低"
+    ]
+   },
+   {
+    "layer": 2,
+    "neuron": 3004,
+    "d": -0.96,
+    "higher_when": "wrong",
+    "promotes": [
+     "imia",
+     " emer",
+     "并发布",
+     "并提出",
+     "puted",
+     "累累"
+    ]
+   },
+   {
+    "layer": 13,
+    "neuron": 1567,
+    "d": 0.91,
+    "higher_when": "right",
+    "promotes": [
+     "あげ",
+     "aid",
+     " rather",
+     "ues",
+     "而过",
+     " dyst"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 586,
+    "d": 0.9,
+    "higher_when": "right",
+    "promotes": [
+     "文山",
+     "neur",
+     "tika",
+     "巡视员",
+     "!\")",
+     "IRS"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 2664,
+    "d": -0.9,
+    "higher_when": "wrong",
+    "promotes": [
+     "但又",
+     "但同时",
+     "但仍然",
+     "但仍",
+     "但在",
+     "又不失"
+    ]
+   },
+   {
+    "layer": 11,
+    "neuron": 2792,
+    "d": 0.9,
+    "higher_when": "right",
+    "promotes": [
+     " ata",
+     "uga",
+     " diverso",
+     "以及对",
+     "อาย",
+     " unsuccessfully"
+    ]
+   },
+   {
+    "layer": 10,
+    "neuron": 1241,
+    "d": -0.89,
+    "higher_when": "wrong",
+    "promotes": [
+     " ",
+     "读",
+     "踏",
+     "非同",
+     " lanc",
+     "iram"
+    ]
+   },
+   {
+    "layer": 0,
+    "neuron": 2115,
+    "d": -0.88,
+    "higher_when": "wrong",
+    "promotes": [
+     "érios",
+     "ási",
+     " reap",
+     "的過程",
+     " zust",
+     "process"
+    ]
+   },
+   {
+    "layer": 14,
+    "neuron": 3347,
+    "d": 0.87,
+    "higher_when": "right",
+    "promotes": [
+     "就有",
+     "就能",
+     "就可以",
+     "便能",
+     "就多",
+     "就需要"
+    ]
+   }
+  ]
+ },
+ "top_heads": {
+  "math": [
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 2.234
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 1.227
+   },
+   {
+    "layer": 0,
+    "head": 8,
+    "kind": "linear attention",
+    "mean_push": -1.086
+   },
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 0.955
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 0.922
+   },
+   {
+    "layer": 23,
+    "head": 1,
+    "kind": "full attention",
+    "mean_push": 0.628
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 0.552
+   },
+   {
+    "layer": 22,
+    "head": 2,
+    "kind": "linear attention",
+    "mean_push": 0.516
+   }
+  ],
+  "facts": [
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 1.192
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 0.899
+   },
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 0.82
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 0.7
+   },
+   {
+    "layer": 20,
+    "head": 4,
+    "kind": "linear attention",
+    "mean_push": 0.539
+   },
+   {
+    "layer": 22,
+    "head": 2,
+    "kind": "linear attention",
+    "mean_push": 0.49
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 0.455
+   },
+   {
+    "layer": 23,
+    "head": 3,
+    "kind": "full attention",
+    "mean_push": -0.445
+   }
+  ],
+  "reasoning": [
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 1.469
+   },
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 1.213
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 0.962
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 0.826
+   },
+   {
+    "layer": 23,
+    "head": 3,
+    "kind": "full attention",
+    "mean_push": -0.598
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 0.555
+   },
+   {
+    "layer": 0,
+    "head": 8,
+    "kind": "linear attention",
+    "mean_push": -0.547
+   },
+   {
+    "layer": 19,
+    "head": 1,
+    "kind": "full attention",
+    "mean_push": 0.458
+   }
+  ],
+  "language": [
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 1.14
+   },
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 1.121
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 1.033
+   },
+   {
+    "layer": 23,
+    "head": 3,
+    "kind": "full attention",
+    "mean_push": -0.524
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 0.469
+   },
+   {
+    "layer": 22,
+    "head": 2,
+    "kind": "linear attention",
+    "mean_push": 0.448
+   },
+   {
+    "layer": 23,
+    "head": 0,
+    "kind": "full attention",
+    "mean_push": 0.432
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 0.358
+   }
+  ],
+  "code": [
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 1.538
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 1.142
+   },
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 1.075
+   },
+   {
+    "layer": 0,
+    "head": 8,
+    "kind": "linear attention",
+    "mean_push": -0.899
+   },
+   {
+    "layer": 21,
+    "head": 11,
+    "kind": "linear attention",
+    "mean_push": 0.777
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 0.75
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 0.659
+   },
+   {
+    "layer": 23,
+    "head": 3,
+    "kind": "full attention",
+    "mean_push": -0.629
+   }
+  ],
+  "commonsense": [
+   {
+    "layer": 23,
+    "head": 6,
+    "kind": "full attention",
+    "mean_push": 1.323
+   },
+   {
+    "layer": 23,
+    "head": 2,
+    "kind": "full attention",
+    "mean_push": 0.853
+   },
+   {
+    "layer": 23,
+    "head": 4,
+    "kind": "full attention",
+    "mean_push": 0.679
+   },
+   {
+    "layer": 21,
+    "head": 15,
+    "kind": "linear attention",
+    "mean_push": 0.579
+   },
+   {
+    "layer": 23,
+    "head": 3,
+    "kind": "full attention",
+    "mean_push": -0.508
+   },
+   {
+    "layer": 23,
+    "head": 5,
+    "kind": "full attention",
+    "mean_push": 0.411
+   },
+   {
+    "layer": 23,
+    "head": 1,
+    "kind": "full attention",
+    "mean_push": 0.383
+   },
+   {
+    "layer": 19,
+    "head": 1,
+    "kind": "full attention",
+    "mean_push": 0.358
+   }
+  ]
+ },
+ "top_push_neurons": {
+  "math": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.467,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.259,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 0,
+    "mean_push": 0.231,
+    "promotes": [
+     " (",
+     " ",
+     ",",
+     "-"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 214,
+    "mean_push": 0.214,
+    "promotes": [
+     "ieger",
+     "يار",
+     " \n  \n",
+     ">>()"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 1805,
+    "mean_push": 0.176,
+    "promotes": [
+     " to",
+     " To",
+     "to",
+     "To"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 256,
+    "mean_push": 0.157,
+    "promotes": [
+     "不及待",
+     "皮革城",
+     "冇有",
+     "英才网"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 285,
+    "mean_push": 0.141,
+    "promotes": [
+     "1",
+     "5",
+     "2",
+     "9"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 162,
+    "mean_push": 0.134,
+    "promotes": [
+     "三十",
+     "２",
+     "二十",
+     "isations"
+    ]
+   }
+  ],
+  "facts": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.358,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.224,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 22,
+    "neuron": 207,
+    "mean_push": 0.203,
+    "promotes": [
+     ".",
+     "。",
+     ".+",
+     ".:**"
+    ]
+   },
+   {
+    "layer": 22,
+    "neuron": 2835,
+    "mean_push": 0.179,
+    "promotes": [
+     "<|endoftext|>",
+     "<|im_end|>",
+     "')</",
+     "<think>"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 66,
+    "mean_push": 0.155,
+    "promotes": [
+     "Theme",
+     "Challenge",
+     "Decision",
+     "Phrase"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 0,
+    "mean_push": 0.139,
+    "promotes": [
+     " (",
+     " ",
+     ",",
+     "-"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 26,
+    "mean_push": 0.131,
+    "promotes": [
+     "rgan",
+     "部队",
+     "海盗",
+     "抢占"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 75,
+    "mean_push": 0.096,
+    "promotes": [
+     ":...",
+     "رحلة",
+     "idth",
+     " 있나요"
+    ]
+   }
+  ],
+  "reasoning": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.507,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 2187,
+    "mean_push": 0.241,
+    "promotes": [
+     " true",
+     "ponder",
+     " True",
+     " correctly"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.233,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 26,
+    "mean_push": 0.179,
+    "promotes": [
+     "rgan",
+     "部队",
+     "海盗",
+     "抢占"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 0,
+    "mean_push": 0.166,
+    "promotes": [
+     " (",
+     " ",
+     ",",
+     "-"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 66,
+    "mean_push": 0.139,
+    "promotes": [
+     "Theme",
+     "Challenge",
+     "Decision",
+     "Phrase"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 69,
+    "mean_push": 0.117,
+    "promotes": [
+     "2",
+     "1",
+     "3",
+     "4"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 28,
+    "mean_push": 0.114,
+    "promotes": [
+     "！（",
+     " baker",
+     " rich",
+     "。（"
+    ]
+   }
+  ],
+  "language": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.245,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 93,
+    "mean_push": 0.211,
+    "promotes": [
+     "variable",
+     "potential",
+     "initial",
+     "duration"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 66,
+    "mean_push": 0.208,
+    "promotes": [
+     "Theme",
+     "Challenge",
+     "Decision",
+     "Phrase"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.174,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 22,
+    "neuron": 178,
+    "mean_push": 0.151,
+    "promotes": [
+     "**",
+     "!**",
+     "」**",
+     ".**"
+    ]
+   },
+   {
+    "layer": 18,
+    "neuron": 3050,
+    "mean_push": 0.146,
+    "promotes": [
+     " Verb",
+     " verbs",
+     " verb",
+     "verb"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 316,
+    "mean_push": 0.135,
+    "promotes": [
+     " precisely",
+     "始",
+     " forthcoming",
+     "得不"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 104,
+    "mean_push": 0.132,
+    "promotes": [
+     ".AUTO",
+     "РЫ",
+     ".CONT",
+     "КС"
+    ]
+   }
+  ],
+  "code": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.422,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 0,
+    "mean_push": 0.242,
+    "promotes": [
+     " (",
+     " ",
+     ",",
+     "-"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 104,
+    "mean_push": 0.196,
+    "promotes": [
+     ".AUTO",
+     "РЫ",
+     ".CONT",
+     "КС"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.178,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 43,
+    "mean_push": 0.176,
+    "promotes": [
+     "inux",
+     "/orders",
+     "oogle",
+     ".xlsx"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 646,
+    "mean_push": 0.162,
+    "promotes": [
+     " كثيراً",
+     "تما",
+     " مؤكدا",
+     " وفقاً"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 93,
+    "mean_push": 0.158,
+    "promotes": [
+     "variable",
+     "potential",
+     "initial",
+     "duration"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 26,
+    "mean_push": 0.153,
+    "promotes": [
+     "rgan",
+     "部队",
+     "海盗",
+     "抢占"
+    ]
+   }
+  ],
+  "commonsense": [
+   {
+    "layer": 23,
+    "neuron": 9,
+    "mean_push": 0.35,
+    "promotes": [
+     " ",
+     "1",
+     "\n",
+     "2"
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 0,
+    "mean_push": 0.231,
+    "promotes": [
+     "-",
+     " ",
+     " (",
+     ","
+    ]
+   },
+   {
+    "layer": 19,
+    "neuron": 2436,
+    "mean_push": 0.161,
+    "promotes": [
+     "MW",
+     "%M",
+     "IDI",
+     "bió"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 66,
+    "mean_push": 0.148,
+    "promotes": [
+     "Theme",
+     "Challenge",
+     "Decision",
+     "Phrase"
+    ]
+   },
+   {
+    "layer": 21,
+    "neuron": 0,
+    "mean_push": 0.142,
+    "promotes": [
+     " (",
+     " ",
+     ",",
+     "-"
+    ]
+   },
+   {
+    "layer": 22,
+    "neuron": 519,
+    "mean_push": 0.134,
+    "promotes": [
+     "radas",
+     "atures",
+     "arma",
+     "RIES"
+    ]
+   },
+   {
+    "layer": 22,
+    "neuron": 2835,
+    "mean_push": 0.133,
+    "promotes": [
+     "<|endoftext|>",
+     "<|im_end|>",
+     "')</",
+     "<think>"
+    ]
+   },
+   {
+    "layer": 23,
+    "neuron": 28,
+    "mean_push": 0.105,
+    "promotes": [
+     "！（",
+     " baker",
+     " rich",
+     "。（"
+    ]
+   }
+  ]
+ },
+ "seconds": 142
+}

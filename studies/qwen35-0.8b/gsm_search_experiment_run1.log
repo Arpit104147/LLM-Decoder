@@ -1,0 +1,88 @@
+15:12:32 === GSM8K: search for an edit that helps held-out questions ===
+15:12:32 re-graded copy 20261106-153032-2e47-rg: 153/300 right (2 grade(s) changed, 47 cut off at 1024 tokens)
+15:12:32    Loading the workspace (with your edits) weights into memory…
+15:12:41    Running edit_weights.py
+15:12:43    Script edit: blk.23.ffn_up.weight (3670016 numbers)
+15:12:43    Loading weights 1/320…
+15:12:44    Loading weights 41/320…
+15:12:44    Loading weights 81/320…
+15:12:45    Loading weights 121/320…
+15:12:45    Loading weights 161/320…
+15:12:45    Loading weights 201/320…
+15:12:46    Loading weights 241/320…
+15:12:46    Loading weights 281/320…
+15:12:47    Model ready in 14 s (3.0 GB in memory)
+15:32:38    Total effects 1/8: switching each layer off at the first wrong token of answer #3
+15:36:22    Total effects 2/8: switching each layer off at the first wrong token of answer #25
+15:40:10    Total effects 3/8: switching each layer off at the first wrong token of answer #41
+15:44:23    Total effects 4/8: switching each layer off at the first wrong token of answer #55
+15:47:29    Total effects 5/8: switching each layer off at the first wrong token of answer #74
+15:52:22    Total effects 6/8: switching each layer off at the first wrong token of answer #90
+15:56:19    Total effects 7/8: switching each layer off at the first wrong token of answer #103
+16:00:13    Total effects 8/8: switching each layer off at the first wrong token of answer #123
+16:03:44    65 wrong answer(s) located (159 token fix(es), 8 at a wrong calculation step), 13 skipped; most blame: layer 14 MLP
+16:04:02    Setting 1/4: {'choose': 'responsible', 'mode': 'general', 'rank': 1, 'strength': 1.0}
+16:04:02    Most responsible part (total effect on wrong − right, 8 answer(s) measured): attention of layer 0
+16:07:55      layer 0 attention (attn): residual push needed 9.13 vs its output 1.25 -> cost 7.30
+16:07:55    Computing an edit for the attention of layer 0: 65 answer(s), 159 token fix(es)
+16:07:55    Layer 0: 159 token fix(es)
+16:40:58    Protecting 72 answer position(s) that must not change
+16:41:46    Kept the outputs on 20,000 positions from 143 saved chat(s) as unchanged as possible
+16:41:46    Solved (general, rank 1): blk.0.ssm_out.weight; 2,097,152 numbers; size of the change = 78760.15% of the matrix
+17:06:49      check 20261106-163251-8ec6: top token changed at 434/447 positions
+17:07:04      check 20261106-163301-833c: top token changed at 265/267 positions
+17:07:28      check 20261106-163502-0c98: top token changed at 408/413 positions
+17:07:58      check 20261106-163558-e8cc: top token changed at 537/545 positions
+17:08:30      check 20261106-163616-dc9a: top token changed at 533/538 positions
+17:08:53      check 20261106-163630-eafc: top token changed at 409/416 positions
+17:09:48      check 20261106-163825-cb2b: top token changed at 952/961 positions
+17:10:18      check 20261106-163843-6bee: top token changed at 539/544 positions
+17:10:45      check 20261106-163900-fbd7: top token changed at 479/485 positions
+17:11:10      check 20261106-163916-d40e: top token changed at 431/439 positions
+17:11:35      check 20261106-163931-861e: top token changed at 442/448 positions
+17:11:58      check 20261106-164059-b730: top token changed at 389/394 positions
+17:12:24      check 20261106-164115-118d: top token changed at 475/489 positions
+17:12:53      check 20261106-164245-cda0: top token changed at 492/499 positions
+17:13:13      check 20261106-164257-1dff: top token changed at 328/341 positions
+17:13:36      check 20261106-164431-eeea: top token changed at 411/418 positions
+17:13:58      check 20261106-164456-9cde: top token changed at 394/397 positions
+17:14:19      check 20261106-164526-1709: top token changed at 325/336 positions
+17:14:39      check 20261106-164538-3b02: top token changed at 351/363 positions
+17:15:23      check 20261106-164656-ef02: top token changed at 799/805 positions
+17:15:23    Warning: This edit changes blk.0.ssm_out.weight by 78760% of its size, which will very likely change many other answers. Try a lower rank or a higher keep strength, fewer answers at a time, a smaller margin or another layer.
+17:15:23    Fixed 5/159 token(s) using layer(s) 0; other chats: top token changed at 98.4% of 9545 positions
+17:15:24    Setting 2/4: {'choose': 'responsible', 'mode': 'general', 'rank': 4, 'strength': 1.0}
+17:15:24    Most responsible part (total effect on wrong − right, 8 answer(s) measured): attention of layer 0
+17:17:23      layer 0 attention (attn): residual push needed 9.13 vs its output 1.25 -> cost 7.30
+17:17:23    Computing an edit for the attention of layer 0: 65 answer(s), 159 token fix(es)
+17:17:23    Layer 0: 159 token fix(es)
+17:41:40    Protecting 72 answer position(s) that must not change
+17:42:22    Kept the outputs on 20,000 positions from 143 saved chat(s) as unchanged as possible
+17:42:22    Solved (general, rank 4): blk.0.ssm_out.weight; 2,097,152 numbers; size of the change = 78769.37% of the matrix
+18:08:08      check 20261106-163251-8ec6: top token changed at 436/447 positions
+18:08:23      check 20261106-163301-833c: top token changed at 265/267 positions
+18:08:47      check 20261106-163502-0c98: top token changed at 408/413 positions
+18:09:19      check 20261106-163558-e8cc: top token changed at 538/545 positions
+18:09:50      check 20261106-163616-dc9a: top token changed at 531/538 positions
+18:10:14      check 20261106-163630-eafc: top token changed at 410/416 positions
+18:11:10      check 20261106-163825-cb2b: top token changed at 950/961 positions
+18:11:42      check 20261106-163843-6bee: top token changed at 541/544 positions
+18:12:11      check 20261106-163900-fbd7: top token changed at 481/485 positions
+18:12:36      check 20261106-163916-d40e: top token changed at 431/439 positions
+18:13:02      check 20261106-163931-861e: top token changed at 443/448 positions
+18:13:26      check 20261106-164059-b730: top token changed at 389/394 positions
+18:13:54      check 20261106-164115-118d: top token changed at 478/489 positions
+18:14:22      check 20261106-164245-cda0: top token changed at 491/499 positions
+18:14:43      check 20261106-164257-1dff: top token changed at 329/341 positions
+18:15:07      check 20261106-164431-eeea: top token changed at 411/418 positions
+18:15:30      check 20261106-164456-9cde: top token changed at 393/397 positions
+18:15:50      check 20261106-164526-1709: top token changed at 327/336 positions
+18:16:11      check 20261106-164538-3b02: top token changed at 354/363 positions
+18:16:57      check 20261106-164656-ef02: top token changed at 796/805 positions
+18:16:57    Warning: This edit changes blk.0.ssm_out.weight by 78769% of its size, which will very likely change many other answers. Try a lower rank or a higher keep strength, fewer answers at a time, a smaller margin or another layer.
+18:16:57    Fixed 37/159 token(s) using layer(s) 0; other chats: top token changed at 98.5% of 9545 positions
+18:16:57    Setting 3/4: {'choose': 'second', 'mode': 'general', 'rank': 4, 'strength': 1.0}
+18:16:57    Second most responsible part (total effect on wrong − right, 8 answer(s) measured): MLP of layer 14
+18:19:33      layer 14 MLP (dense): residual push needed 3.65 vs its output 1.37 -> cost 2.67
+18:19:33    Computing an edit for the MLP of layer 14: 65 answer(s), 159 token fix(es)
+18:19:33    Layer 14: 159 token fix(es)

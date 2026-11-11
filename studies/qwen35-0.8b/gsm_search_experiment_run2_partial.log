@@ -1,0 +1,42 @@
+20:23:37 === GSM8K: search for an edit that helps held-out questions ===
+20:23:37    Loading the workspace (with your edits) weights into memory…
+20:23:54    Running edit_weights.py
+20:23:55    Script edit: blk.23.ffn_up.weight (3670016 numbers)
+20:23:55    Loading weights 1/320…
+20:23:58    Loading weights 41/320…
+20:23:59    Loading weights 81/320…
+20:23:59    Loading weights 121/320…
+20:24:00    Loading weights 161/320…
+20:24:00    Loading weights 201/320…
+20:24:00    Loading weights 241/320…
+20:24:01    Loading weights 281/320…
+20:24:02    Model ready in 25 s (3.0 GB in memory)
+20:47:52    Total effects 1/8: switching each layer off at the first wrong token of answer #3
+20:52:34    Total effects 2/8: switching each layer off at the first wrong token of answer #25
+20:57:35    Total effects 3/8: switching each layer off at the first wrong token of answer #41
+21:02:54    Total effects 4/8: switching each layer off at the first wrong token of answer #55
+21:06:44    Total effects 5/8: switching each layer off at the first wrong token of answer #74
+21:13:06    Total effects 6/8: switching each layer off at the first wrong token of answer #90
+21:17:57    Total effects 7/8: switching each layer off at the first wrong token of answer #103
+21:22:42    Total effects 8/8: switching each layer off at the first wrong token of answer #123
+21:26:59    65 wrong answer(s) located (159 token fix(es), 8 at a wrong calculation step), 13 skipped; most blame: layer 14 MLP
+21:27:23    Setting 1/4: {'choose': 'responsible', 'mode': 'general', 'rank': 4, 'strength': 4.0}
+21:27:23    Most responsible part (total effect on wrong − right, 8 answer(s) measured): attention of layer 0
+21:32:11      layer 0 attention (attn): residual push needed 9.13 vs its output 1.25 -> cost 7.30
+21:32:11    Computing an edit for the attention of layer 0: 65 answer(s), 159 token fix(es)
+21:32:11    Layer 0: 159 token fix(es)
+22:11:53    Protecting 72 answer position(s) that must not change
+22:12:37    Kept the outputs on 20,000 positions from 143 saved chat(s) as unchanged as possible
+22:12:37    Solved (general, rank 4): blk.0.ssm_out.weight; 2,097,152 numbers; size of the change = 27954.77% of the matrix
+22:38:03    The edit is too big to apply safely: checking its side effects on 3 chats only
+22:38:28      check 20261106-163251-8ec6: top token changed at 431/447 positions
+22:38:44      check 20261106-163301-833c: top token changed at 262/267 positions
+22:39:09      check 20261106-163502-0c98: top token changed at 397/413 positions
+22:39:09    Warning: This edit changes blk.0.ssm_out.weight by 27955% of its size, which will very likely change many other answers. Try a lower rank or a higher keep strength, fewer answers at a time, a smaller margin or another layer.
+22:39:09    Fixed 39/159 token(s) using layer(s) 0; other chats: top token changed at 96.7% of 1127 positions
+22:39:09    Setting 2/4: {'choose': 'cheapest', 'mode': 'general', 'rank': 1, 'strength': 1.0}
+22:39:09    Choosing the cheapest layer: trying L23, L21
+22:41:17      layer 23 MLP (dense): residual push needed 1.51 vs its output 6.40 -> cost 0.24
+22:41:38      layer 21 MLP (dense): residual push needed 1.89 vs its output 2.50 -> cost 0.76
+22:41:38    Computing an edit for the MLP of layer 23: 65 answer(s), 159 token fix(es)
+22:41:38    Layer 23: 159 token fix(es)

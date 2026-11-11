@@ -1,0 +1,28 @@
+# Model data made by the app (extracted weights, tests, traces, exported GGUFs): large and personal
+workspaces/
+output/
+*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw run logs of the studies (llama-server output, per-shard partial results)
+studies/*/raw/
+studies/*/bench_server_*.log
+studies/*/*lane*.log
+studies/*/*.shard*.json
+studies/*/*.shard*.log
+studies/*/bench_gsm_cap.txt
+
+# Local tools and editors
+.claude/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

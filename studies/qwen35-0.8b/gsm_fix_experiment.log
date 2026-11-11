@@ -1,0 +1,16 @@
+15:30:32 1. baseline: 300 problems
+15:30:32    300 question(s), weights: workspace (with your edits), llama.cpp
+15:30:39    Fast mode: writing the workspace weights (with your edits) to exports/_test_model.gguf for llama.cpp…
+16:32:29    Score: 153/300
+16:32:29 baseline: 153/300 · problems 0-149: 72/150 · 150-299: 81/150
+16:32:29 2. exact edit from the wrong answers in problems 0-149
+16:32:29    Tracing 150 reply(ies) (replaying them through the tracer)…
+17:50:26    78 wrong answer(s) located (188 token fix(es), 9 at a wrong calculation step), 0 skipped; most blame: layer 23 MLP
+17:50:47    Choosing the layer: trying L23, L21
+18:00:32      layer 23 (dense): residual push needed 1.79 vs its MLP output 6.70 -> cost 0.27
+18:00:56      layer 21 (dense): residual push needed 2.61 vs its MLP output 2.65 -> cost 0.98
+18:00:56    Computing an edit for layer 23: 78 answer(s), 188 token fix(es)
+18:00:56    Layer 23: 188 token fix(es)
+20:48:33    Protecting 72 answer position(s) that must not change
+20:49:43    Kept the outputs on 20,000 positions from 150 saved chat(s) as unchanged as possible
+20:49:43    Solved: blk.23.ffn_down.weight; 3,670,016 numbers; size of the change = 357.30% of the matrix
